@@ -5,6 +5,7 @@ public class Node
     Questions question;
     Node yesNode; //YES
     Node noNode; //NO
+    int id;
 
     String decision;
 

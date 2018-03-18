@@ -36,6 +36,7 @@ public class Tree
 
         //static nodes, since the tree is set in stone!!
         root = new Node(hand_in);
+
         Node node1 = new Node(attendLectures);
         Node node2 = new Node(readBook);
         Node node3 = new Node(makeExercises);
@@ -51,6 +52,21 @@ public class Tree
         Node node13 = new Node(makeExercises);
         Node node14 = new Node(makeExercises);
 
+        root.id = 0;
+        node1.id = 1;
+        node2.id = 2;
+        node3.id = 3;
+        node4.id = 4;
+        node5.id = 5;
+        node6.id = 6;
+        node7.id = 7;
+        node8.id = 8;
+        node9.id = 9;
+        node10.id = 10;
+        node11.id = 11;
+        node12.id = 12;
+        node13.id = 13;
+        node14.id = 14;
 
         root.setYesNode(node1);
         root.setNoNode(node8);
@@ -61,8 +77,8 @@ public class Tree
         node2.setYesNode(node3);
         node2.setNoNode(node4);
 
-        node5.setNoNode(node6);
-        node5.setYesNode(node7);
+        node5.setNoNode(node7);
+        node5.setYesNode(node6);
 
         node8.setYesNode(node9);
         node8.setNoNode(node12);
@@ -105,8 +121,10 @@ public class Tree
 
     public void checkStudent()
     {
+
         for (Questions q : studentToCheck.getQuestions())
         {
+            System.out.println("WE'RE IN NODE NUMBER:  " + studentToCheck.getCurrentNode().id);
             System.out.println("the questions is: " + q.getQuestion() + ". The student's answer is: " + q.getAnswer());
 
             if (q.getAnswer())
@@ -123,6 +141,7 @@ public class Tree
             System.out.println("");
         }
 
+//        if(studentToCheck.getCurrentNode() == node6)
         System.out.println("THE RESULT IS: " + studentToCheck.getCurrentNode().getDecision());
     }
 }
