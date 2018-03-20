@@ -1,12 +1,12 @@
 package cphbusiness.pagh;
 
-public class Questions
+public class Question
 {
 
     String question;
     boolean answer;
 
-    public Questions(String question)
+    public Question(String question)
     {
         this.question = question;
     }

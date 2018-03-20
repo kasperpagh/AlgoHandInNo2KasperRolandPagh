@@ -2,15 +2,16 @@ package cphbusiness.pagh;
 
 public class Node
 {
-    Questions question;
+    Question question;
     Node yesNode; //YES
     Node noNode; //NO
-    int id;
+
+    int id; //for debugging
 
     String decision;
 
 
-    public Node(Questions question)
+    public Node(Question question)
     {
         this.question = question;
     }
@@ -40,12 +41,12 @@ public class Node
         this.noNode = noNode;
     }
 
-    public Questions getQuestion()
+    public Question getQuestion()
     {
         return question;
     }
 
-    public void setQuestion(Questions question)
+    public void setQuestion(Question question)
     {
         this.question = question;
     }

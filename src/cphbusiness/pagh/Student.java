@@ -2,22 +2,22 @@ package cphbusiness.pagh;
 
 public class Student
 {
-    private Questions[] questions;
+    private Question[] questions;
     private Node currentNode;
 
 
-    public Student(Questions[] questions, Node currentNode)
+    public Student(Question[] questions, Node currentNode)
     {
         this.questions = questions;
         this.currentNode = currentNode;
     }
 
-    public Questions[] getQuestions()
+    public Question[] getQuestions()
     {
         return questions;
     }
 
-    public void setQuestions(Questions[] questions)
+    public void setQuestions(Question[] questions)
     {
         this.questions = questions;
     }

@@ -4,15 +4,15 @@ public class Tree
 {
     private Node root;
     private Student studentToCheck;
-    private Questions readBook = new Questions("read the book?");
-    private Questions attendLectures = new Questions("attended the lectures?");
-    private Questions makeExercises = new Questions("did the exercises?");
-    private Questions hand_in = new Questions("did the hand-ins?");
+    private Question readBook = new Question("read the book?");
+    private Question attendLectures = new Question("attended the lectures?");
+    private Question makeExercises = new Question("did the exercises?");
+    private Question hand_in = new Question("did the hand-ins?");
 
     public Tree(boolean didHandIn, boolean attendedLectures, boolean readTheBook, boolean madeExercises)
     {
         initTree();
-        Questions[] questions = new Questions[4];
+        Question[] questions = new Question[4];
 
         questions[0] = hand_in;
         questions[0].setAnswer(didHandIn);
@@ -117,12 +117,14 @@ public class Tree
 
         node14.setYesNode(warning);
         node14.setNoNode(warning);
+
+
     }
 
     public void checkStudent()
     {
 
-        for (Questions q : studentToCheck.getQuestions())
+        for (Question q : studentToCheck.getQuestions())
         {
             System.out.println("WE'RE IN NODE NUMBER:  " + studentToCheck.getCurrentNode().id);
             System.out.println("the questions is: " + q.getQuestion() + ". The student's answer is: " + q.getAnswer());
