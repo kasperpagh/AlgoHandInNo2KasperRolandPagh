@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e776ac-ea36-4032-bf07-52dc9ba42587" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgoHandIn2KasperRolandPagh/cphbusiness/pagh/ActionNode.class" afterPath="$PROJECT_DIR$/out/production/AlgoHandIn2KasperRolandPagh/cphbusiness/pagh/ActionNode.class" />
-      <change beforePath="$PROJECT_DIR$/src/cphbusiness/pagh/ActionNode.java" afterPath="$PROJECT_DIR$/src/cphbusiness/pagh/ActionNode.java" />
-      <change beforePath="$PROJECT_DIR$/src/cphbusiness/pagh/Node.java" afterPath="$PROJECT_DIR$/src/cphbusiness/pagh/Node.java" />
-      <change beforePath="$PROJECT_DIR$/src/cphbusiness/pagh/Questions.java" afterPath="$PROJECT_DIR$/src/cphbusiness/pagh/Question.java" />
-      <change beforePath="$PROJECT_DIR$/src/cphbusiness/pagh/Student.java" afterPath="$PROJECT_DIR$/src/cphbusiness/pagh/Student.java" />
       <change beforePath="$PROJECT_DIR$/src/cphbusiness/pagh/Tree.java" afterPath="$PROJECT_DIR$/src/cphbusiness/pagh/Tree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +17,8 @@
       <file leaf-file-name="Tree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cphbusiness/pagh/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-538">
-              <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+            <state relative-caret-position="465">
+              <caret line="130" column="67" lean-forward="true" selection-start-line="130" selection-start-column="67" selection-end-line="130" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -184,12 +178,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521295395802</updated>
       <workItem from="1521295401654" duration="13433000" />
-      <workItem from="1521550687769" duration="3913000" />
+      <workItem from="1521550687769" duration="4147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17346000" />
+    <option name="totallyTimeSpent" value="17580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1688" y="27" width="1696" height="1026" extended-state="6" />
@@ -358,25 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cphbusiness/pagh/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cphbusiness/pagh/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="822">
@@ -432,10 +407,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cphbusiness/pagh/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cphbusiness/pagh/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+        <state relative-caret-position="465">
+          <caret line="130" column="67" lean-forward="true" selection-start-line="130" selection-start-column="67" selection-end-line="130" selection-end-column="67" />
           <folding />
         </state>
       </provider>

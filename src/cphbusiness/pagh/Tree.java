@@ -127,7 +127,8 @@ public class Tree
         for (Question q : studentToCheck.getQuestions())
         {
             System.out.println("WE'RE IN NODE NUMBER:  " + studentToCheck.getCurrentNode().id);
-            System.out.println("the questions is: " + q.getQuestion() + ". The student's answer is: " + q.getAnswer());
+            System.out.println("the questions is: " + q.getQuestion() +
+                    ". The student's answer is: " + q.getAnswer());
 
             if (q.getAnswer())
             {
